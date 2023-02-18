@@ -11,13 +11,21 @@ const NavBar = () => {
     <>
         <Navbar bg="dark" variant="dark" >
         <Container fluid>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Pizza Shop</Navbar.Brand>
           <Nav className="ms-auto">
-            <LinkContainer to="/">
+            <LinkContainer to="/" activeClassName>
                 <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/cart">
-                <Nav.Link>Cart</Nav.Link>
+            <LinkContainer to="/about" activeClassName>
+                <Nav.Link>About</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/contact" activeClassName>
+                <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/policy" activeClassName>
+                <Nav.Link>Policy</Nav.Link>
             </LinkContainer>
            
             

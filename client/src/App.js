@@ -2,12 +2,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import About from './components/About';
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar/>
+    <NavBar/>
+    <Routes>
+    <Route path='/about' element={<About/>}/>
+    </Routes>
     </BrowserRouter>
   );
 }
