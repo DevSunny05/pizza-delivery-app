@@ -51,7 +51,7 @@ const About = () => {
               esse voluptates ea ullam cum recusandae rem fuga molestiae
               consectetur molestias ad enim eaque saepe! Reiciendis deserunt eos
               accusantium nobis earum cumque quasi quidem unde soluta enim?
-              Dolor, corrupti praesentium!
+              Dolor,  
             </p>
           </Col>
         </Row>
